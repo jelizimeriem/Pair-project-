@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url("./Image/bodyback.jpg");
+}
+.moviecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4rem auto;
+}
+h2{
+    text-align: center ;
+    font-size: 2.3rem;
+    color: #301752;
+}
+.menu{
+    font-size: 1.1rem;
+}
+
+.Horror{
+display: inline-block;
+outline: none;
+cursor: pointer;
+font-size: 16px;
+line-height: 20px;
+font-weight: 600;
+border-radius: 8px;
+padding: 14px 24px;
+border: none;
+transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+background: linear-gradient(to right, rgb(6, 6, 6) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+color: #fff;
+}
+.Adventure{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 14px 24px;
+    border: none;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: linear-gradient(to right, rgb(6, 6, 6) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+    color: #fff;
+    }
+    .Romance{
+        display: inline-block;
+        outline: none;
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 600;
+        border-radius: 8px;
+        padding: 14px 24px;
+        border: none;
+        transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+        background: linear-gradient(to right, rgb(6, 6, 6) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+        color: #fff;
+        }
+
+        .searchButton{
+            font-family: 'Ubuntu', sans-serif;
+  
+  
+  width: 170px;
+  height: 40px;
+  line-height: 1;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 3px solid #8C82FC;
+  background: #fff;
+  color: #8C82FC;
+  border-radius: 40px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all .35s;
+}
+
+        
+        input{
+            width: 100%;
+            display: flex;
+            padding: 15px;
+            background-color: white;
+            border: 2px solid black;
+            color: #111;
+            font-size: 15px;
+            box-shadow: 3px 1px 0px 2px, 0px -1px 0px 2px rgba(0, 0, 0, 0.62);
+            height: 58px;    
+            transform: skew(-3deg, 1deg);
+            font-family: 'Knewave', cursive;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .reset{
+            display: inline-block;
+            outline: none;
+            cursor: pointer;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 600;
+            border-radius: 8px;
+            padding: 14px 24px;
+            border: none;
+            transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+            background: linear-gradient(to right, rgb(18, 23, 170) 0%, rgb(26, 17, 140) 50%, rgb(18, 4, 215) 100%);
+            color: #fff;
+            }
