@@ -130,12 +130,14 @@ var movies = [
 
         })
 
+    
+        $(".random").click(function(e,i){
+           var t = Math.floor(Math.random() * movies.length);
+           var r =["./image/horror1.jpg","./image/horror2.jpg","./image/advnture1.jpg","./image/adventure2.jpg","./image/romance1.jpg","./image/romance2.jpg",]
+            $(".moviecontainer").empty();
+  
+    $(".moviecontainer").append('<div class="pick"><img width="400px"src="' + r[t] + '"  /></div>')
 
-
-
-
-        
-            
-            
-            
-           
+  
+console.log("thiss is random",t)
+        })
